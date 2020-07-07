@@ -15,7 +15,51 @@
             width: 100%;
             height: 100%;
         }
+        .pen {
+        margin: 0 auto;
+        position: absolute;
+        top:500px;
+        left:0px;
+        right:-400px;
+        transform: rotatez(120deg)
+    }
+        .penc{
+        border:1px solid black;
+        width: 20px;
+        height: 300px;
+        margin: 0 auto;
+        position: absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        background-color: gray;
+        border-radius: 20px 20px 10px 10px;
+    }
+        .penr{
+        border:1px solid black;
+        width: 5px;
+        height: 310px;
+        margin: 0 auto;
+        position: absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        background-color: black;
+        border-radius: 20px 20px 10px 10px;
+    }
 
+        .pend{
+        border:1px solid black;
+        width: 30px;
+        height: 20px;
+        margin: 0 auto;
+        position: absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        background-color: rgb(90,85,85);
+        border-radius: 50%;
+    }
         .round{   
 
         width: 500px;
@@ -30,9 +74,11 @@
         border-radius: 20px;
         background-color: white;
         transform: rotatez(-50deg);
-        box-shadow: -10px 5px grey, -15px 7px grey, -20px 9px grey, -25px 11px grey, -30px 13px grey, -35px 15px grey, -40px 17px grey, -45px 19px grey, -50px 21px grey, -55px 23px grey; 
+        box-shadow: -10px 5px grey, -15px 7px grey, -20px 9px grey, -25px 11px grey, -30px 13px grey, -35px 15px grey, -40px 17px grey, -45px 19px grey, -50px 21px grey, -55px 23px grey;
+       
         /*
         box-shadow: -10px 5px grey, -15px 7px grey, -20px 9px grey, -25px 11px grey, -30px 13px grey, -35px 15px grey, -40px 17px grey, -45px 19px grey, -50px 21px grey, -55px 23px grey;
+        
         */
         }
         .border{
@@ -239,6 +285,13 @@
             <div class="volume"></div>
             <div class="taitho"></div>
             <div class="screen">
+                <div class="pen">
+                    
+                    <div class="penc"></div>
+                    <div class="penr"></div>
+                    <div class="pend"></div>
+                </div>
+            
             <p id="clock" onclick="clock();">ERROR</p>
             <div class="item-header">
                 <ul>
